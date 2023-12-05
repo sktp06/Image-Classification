@@ -1,0 +1,51 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                       dog1.jpg  label:                           
+ 2 key:                       dog3.jpg  label:                           
+ 3 key:                       dog4.jpg  label:                           
+ 4 key:                       dog2.jpg  label:                           
+
+     MATCH:
+
+                      dog1.jpg: 
+Real:                              Classifier:                   pug, pug-dog
+
+                      dog3.jpg: 
+Real:                              Classifier:     german shorthaired pointer
+
+                      dog4.jpg: 
+Real:                              Classifier:                     pomeranian
+
+                      dog2.jpg: 
+Real:                              Classifier:                    entlebucher
+
+ NOT A MATCH:
+
+# Total Images 4 # Matches: 4 # NOT Matches: 0
+
+     MATCH:
+
+                      dog1.jpg: 
+Real:                              Classifier:                   pug, pug-dog  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                      dog3.jpg: 
+Real:                              Classifier:     german shorthaired pointer  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                      dog4.jpg: 
+Real:                              Classifier:                     pomeranian  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                      dog2.jpg: 
+Real:                              Classifier:                    entlebucher  
+PetLabelDog: 0  ClassLabelDog: 1
+
+ NOT A MATCH:
+
+# Total Images 4 # Matches: 4 # NOT Matches: 0
